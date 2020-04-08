@@ -7,13 +7,15 @@ public class App {
         Messenger viber = new Viber();
         Messenger whatsApp = new WhatsApp();
 
-        Client alex = new Client((WhatsApp) whatsApp, null, null);
-        Client ivan = new Client(null, (Telegram) telegram, null);
-        Client vasiliy =  new Client(null, null, (Viber) viber);
+        Client alex = new Client(whatsApp);
+        Client ivan = new Client(telegram);
+        Client vasiliy = new Client(viber);
 
-        alex.sendWhatsAppMessage();
-        ivan.sendTelegramMessage();
-        vasiliy.sendViberMessage();
+        alex.sendMessage();
+        ivan.sendMessage();
+        vasiliy.sendMessage();
+
+        Messenger.test();
     }
 
 }

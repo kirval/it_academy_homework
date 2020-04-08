@@ -13,15 +13,15 @@ public class App {
         /*
         С использованием внутреннего класса код смотрится совсем иначе:
          */
-//        Bicycle peugeot = new Bicycle("Peugeot", 120, 40);
-//        Bicycle.SteeringWheel wheel = peugeot.new SteeringWheel();
-//        Bicycle.Seat seat = peugeot.new Seat();
-//
-//        seat.getSeatParam();
-//        seat.up();
-//        peugeot.start();
-//        wheel.left();
-//        wheel.right();
+        Bicycle peugeot = new Bicycle("Peugeot", 120, 40);
+        Bicycle.SteeringWheel wheel = peugeot.new SteeringWheel();
+        Bicycle.Seat seat = peugeot.new Seat();
+
+        seat.getSeatParam();
+        seat.up();
+        peugeot.start();
+        wheel.left();
+        wheel.right();
         /*
         В данном примере выделение руля и сидения усиливает инкапсуляцию
         (мы скрываем данные о частях велосипеда внутри соответствующего класса),

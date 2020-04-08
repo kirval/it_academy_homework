@@ -1,10 +1,11 @@
 package lecture.week4.enumLecture.example.dayOfWeek;
 
-public class Scholar {
+public class Scholar{
 
     public void wakeUp(SchoolSchedule schedule) {
+        DayOfWeek today = schedule.getDayOfWeek();
 
-        switch (schedule.getDayOfWeek()) {
+        switch (today) {
             case MONDAY:
             case TUESDAY:
             case WEDNESDAY:

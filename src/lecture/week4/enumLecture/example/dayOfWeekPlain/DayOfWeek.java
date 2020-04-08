@@ -8,11 +8,6 @@ public class DayOfWeek {
        this.title = title;
    }
 
-   public static void main(String[] args) {
-       DayOfWeek dayOfWeek = new DayOfWeek("Суббота");
-       System.out.println(dayOfWeek);
-   }
-
    @Override
    public String toString() {
        return "DayOfWeek{" +

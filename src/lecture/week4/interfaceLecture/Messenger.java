@@ -1,13 +1,19 @@
 package lecture.week4.interfaceLecture;
 
-public interface Messenger{
+public interface Messenger {
 
-     void sendMessage();
+    static int x = 5;
 
-     void getMessage();
+    static void  test(){
+        System.out.println("test");
+    }
 
-     default void printInvitationMessage() {
-          System.out.println("Введите сообщение: ");
-     }
+    void sendMessage();
+
+    void getMessage();
+
+    default void printInvitationMessage() {
+        System.out.println("Введите сообщение: ");
+    }
 
 }

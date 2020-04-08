@@ -27,7 +27,7 @@ public class Bicycle {
         }
     }
 
-    public class Seat {
+    protected class Seat {
 
         public void up() {
             System.out.println("Сиденье поднято выше!");

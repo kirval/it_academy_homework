@@ -6,7 +6,7 @@ public class App {
         /*
         Проблема: в конструктор класса DayOfWeek можно передать любой текст
          */
-        DayOfWeek sunday = new DayOfWeek("Суббота");
+        DayOfWeek sunday = new DayOfWeek("gfsdgsdfgsd");
 
         System.out.println(sunday);
     }

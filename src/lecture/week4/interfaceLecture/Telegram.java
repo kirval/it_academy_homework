@@ -9,4 +9,5 @@ public class Telegram implements Messenger {
      public void getMessage() {
          System.out.println("Читаем сообщение в Telegram!");
      }
+
 }
