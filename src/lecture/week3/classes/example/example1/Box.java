@@ -1,7 +1,17 @@
 package lecture.week3.classes.example.example1;
 
 public class Box {
-    double width;
-    double height;
-    double depth;
+
+    private String test = "stroka";
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        if (test.length() < 6){
+            this.test = test;
+        }
+    }
+
 }

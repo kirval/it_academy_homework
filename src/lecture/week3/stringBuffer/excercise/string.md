@@ -14,4 +14,4 @@
    http://example1.com/ — Да
    http://example2.com — Да
    example.com — Нет
-   кремль.рф — Нет :(
+   кремль.рф — Нет
