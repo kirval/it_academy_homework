@@ -1,6 +1,4 @@
-package lecture.week4.interfaceLecture;
-
-import java.util.Scanner;
+package lecture.week4.interfaceLecture.messanger;
 
 public class Client {
 

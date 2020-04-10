@@ -1,4 +1,4 @@
-package lecture.week4.interfaceLecture;
+package lecture.week4.interfaceLecture.messanger;
 
 public class Viber implements Messenger {
 
